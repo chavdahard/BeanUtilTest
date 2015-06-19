@@ -9,7 +9,7 @@ public class Starter {
 
 	public static void main(String[] args) throws Exception {
 		System.out.println("Start");
-		testClasses(MyTest.class);
+		testClasses(ParentClass.class);
 		System.out.println("End");
 	}
 
