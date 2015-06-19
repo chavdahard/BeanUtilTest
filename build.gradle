@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'uk.co.jemos.podam:podam:5.4.1.RELEASE'
+    compile 'org.apache.commons:commons-collections4:4.0'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

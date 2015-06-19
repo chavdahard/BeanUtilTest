@@ -1,0 +1,21 @@
+target
+logs
+build
+
+.settings
+.classpath
+.project
+.metadata
+
+.DS_Store
+
+# PROJECT SPECIFIC IGNORES
+/src/main/resources/*.properties
+/src/test/resources/*.properties
+
+# INTELLIJ IDEA IGNORES
+*.iml
+*.ipr
+*.iws
+.idea/
+jamondata
